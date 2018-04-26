@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.hhly</groupId>
+    <artifactId>springcloud-demo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+        <module>demo1/eureka-consumer</module>
+        <module>demo1/eureka-consumer-feign</module>
+        <module>demo1/eureka-consumer-ribbon-hystrix</module>
+        <module>demo1/eureka-consumer-ribbon</module>
+
+        <module>demo1/config-server</module>
+        <module>demo1/config-client</module>
+
+        <module>demo1/eurekaserver</module>
+        <module>demo1/eurekaclient</module>
+        <module>demo1/enureka-client2</module>
+        <module>demo1/hystrix-dashboard</module>
+
+    </modules>
+
+</project>
